@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>写入到HTML文档</title>
+</head>
+
+<body>
+<h1>标题标签</h1>
+<p>段落标签</p>
+<button type="button" onClick="clickFunction()">文档加载后写入HTML将覆盖HTML</button>
+<script>
+document.write("写入到HTML文档");
+function clickFunction() {
+   	document.write(Date());
+}
+</script>
+</body>
+</html>
